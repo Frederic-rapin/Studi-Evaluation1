@@ -30,17 +30,21 @@ header {
   background: #fff;
 }
 
-.sorties-bd{
-  width: 95vw;
+.sorties-bd {
+  width: 100vw;
+  background-color: orangered;
+  border-radius: 10px;
+
 }
 
 .article {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 10px;
+  background-color: whitesmoke;
   border: 2px solid orangered;
   border-radius: 5px;
-  margin: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .article h2 {
@@ -56,7 +60,7 @@ header {
 .article img {
   grid-column: 1;
   grid-row: 3;
-  width: 300px;
+  width: 80vw;
   height: auto;
   margin: auto;
 }
@@ -68,8 +72,7 @@ header {
 
 /*iPads, Tablets*/
 @media only screen and (min-width: 480px) {
-
-  .sorties-bd{
+  .sorties-bd {
     width: 95vw;
   }
 
@@ -108,8 +111,8 @@ header {
 
 /*small screen, laptop*/
 @media only screen and (min-width: 768px) {
-  .sorties-bd{
-    width: 40vw;
+  .sorties-bd {
+    width: 80vw;
   }
 
   .article {
@@ -147,8 +150,7 @@ header {
 
 /*desktop*/
 @media only screen and (min-width: 1024px) {
-
-  .sorties-bd{
+  .sorties-bd {
     width: 40vw;
   }
   .article {
@@ -186,12 +188,11 @@ header {
 
 /*large screen*/
 @media only screen and (min-width: 1200px) {
-  .sorties-bd{
+  .sorties-bd {
     margin-top: 10px;
-    width: 30vw;
-    background-color:orangered;
+    width: 45vw;
+    background-color: orangered;
     border-radius: 20px;
-
   }
 
   .article {
@@ -199,9 +200,9 @@ header {
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     border: 2px solid orangered;
-    background-color:#fff;
+    background-color: #fff;
     border-radius: 10px;
-    margin: 1em;
+    margin-bottom: 1em;
   }
 
   .article h2 {
