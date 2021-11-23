@@ -12,6 +12,7 @@ h2 {
 
 h3 {
   font-family: "Merriweather", serif;
+  color: orangered;
   text-align: center;
 }
 
@@ -23,7 +24,7 @@ header {
 
 .logo {
   width: auto;
-  height: 4em;
+  height: 5em;
 }
 
 .main {
@@ -31,10 +32,21 @@ header {
 }
 
 .sorties-bd {
-  width: 100vw;
+  width: 95vw;
   background-color: orangered;
   border-radius: 10px;
+}
 
+.dossier-special{
+  width: 95vw;
+  background-color: orangered;
+  border-radius: 10px;
+}
+
+.rencontres{
+  width: 95vw;
+  background-color: orangered;
+  border-radius: 10px;
 }
 
 .article {
@@ -72,9 +84,10 @@ header {
 
 /*iPads, Tablets*/
 @media only screen and (min-width: 480px) {
-  .sorties-bd {
+  .sorties-bd,.dossier-special, .rencontres {
     width: 95vw;
   }
+
 
   .article {
     display: grid;
@@ -82,7 +95,7 @@ header {
     grid-gap: 10px;
     border: 2px solid orangered;
     border-radius: 10px;
-    margin: 1em;
+    margin-bottom: 1em;
   }
 
   .article h2 {
@@ -111,7 +124,7 @@ header {
 
 /*small screen, laptop*/
 @media only screen and (min-width: 768px) {
-  .sorties-bd {
+  .sorties-bd,.dossier-special, .rencontres {
     width: 80vw;
   }
 
@@ -121,7 +134,7 @@ header {
     grid-gap: 10px;
     border: 2px solid orangered;
     border-radius: 10px;
-    margin: 1em;
+    margin-bottom: 1em;
   }
 
   .article h2 {
@@ -150,7 +163,8 @@ header {
 
 /*desktop*/
 @media only screen and (min-width: 1024px) {
-  .sorties-bd {
+  .sorties-bd,.dossier-special, .rencontres {
+
     width: 40vw;
   }
   .article {
@@ -159,7 +173,7 @@ header {
     grid-gap: 10px;
     border: 2px solid orangered;
     border-radius: 10px;
-    margin: 1em;
+    margin-bottom: 1em;
   }
 
   .article h2 {
@@ -188,7 +202,8 @@ header {
 
 /*large screen*/
 @media only screen and (min-width: 1200px) {
-  .sorties-bd {
+  .sorties-bd,.dossier-special, .rencontres {
+
     margin-top: 10px;
     width: 45vw;
     background-color: orangered;
