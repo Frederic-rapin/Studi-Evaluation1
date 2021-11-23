@@ -1,6 +1,8 @@
 h1 {
   font-family: "Carter One", cursive;
   text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 h2 {
@@ -28,11 +30,14 @@ header {
   background: #fff;
 }
 
+.sorties-bd{
+  width: 95vw;
+}
+
 .article {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 10px;
-  width: 95vw;
   border: 2px solid orangered;
   border-radius: 5px;
   margin: 0.5em;
@@ -63,11 +68,15 @@ header {
 
 /*iPads, Tablets*/
 @media only screen and (min-width: 480px) {
+
+  .sorties-bd{
+    width: 95vw;
+  }
+
   .article {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 10px;
-    width: 95vw;
     border: 2px solid orangered;
     border-radius: 10px;
     margin: 1em;
@@ -99,11 +108,14 @@ header {
 
 /*small screen, laptop*/
 @media only screen and (min-width: 768px) {
+  .sorties-bd{
+    width: 40vw;
+  }
+
   .article {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
-    width: 40vw;
     border: 2px solid orangered;
     border-radius: 10px;
     margin: 1em;
@@ -135,11 +147,14 @@ header {
 
 /*desktop*/
 @media only screen and (min-width: 1024px) {
+
+  .sorties-bd{
+    width: 40vw;
+  }
   .article {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
-    width: 40vw;
     border: 2px solid orangered;
     border-radius: 10px;
     margin: 1em;
@@ -171,12 +186,20 @@ header {
 
 /*large screen*/
 @media only screen and (min-width: 1200px) {
+  .sorties-bd{
+    margin-top: 10px;
+    width: 30vw;
+    background-color:orangered;
+    border-radius: 20px;
+
+  }
+
   .article {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
-    width: 30vw;
     border: 2px solid orangered;
+    background-color:#fff;
     border-radius: 10px;
     margin: 1em;
   }
