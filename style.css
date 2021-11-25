@@ -26,6 +26,10 @@ h2 {
   height: 5em;
 }
 
+.card {
+  margin-bottom: 1em;
+}
+
 .badge-arleston {
   position: absolute;
   top: 120px;
