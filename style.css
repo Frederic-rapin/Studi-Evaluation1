@@ -1,5 +1,10 @@
+body {
+  background-color: lightgray;
+}
+
 h1 {
   font-family: "Carter One", cursive;
+  font-size: 2em;
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
@@ -10,237 +15,88 @@ h2 {
   text-align: center;
 }
 
-h3 {
-  font-family: "Merriweather", serif;
-  color: orangered;
-  text-align: center;
-}
-
-header {
+/* .brand {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .logo {
   width: auto;
   height: 5em;
-}
-
-.main {
-  background: #fff;
-}
-
-.sorties-bd {
-  width: 95vw;
-  background-color: orangered;
-  border-radius: 10px;
-}
-
-.dossier-special{
-  width: 95vw;
-  background-color: orangered;
-  border-radius: 10px;
-}
-
-.rencontres{
-  width: 95vw;
-  background-color: orangered;
-  border-radius: 10px;
-}
-
-.article {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 10px;
-  background-color: whitesmoke;
-  border: 2px solid orangered;
-  border-radius: 5px;
-  margin-bottom: 0.5em;
-}
-
-.article h2 {
-  grid-column: 1;
-  grid-row: 1;
-}
-
-.article h3 {
-  grid-column: 1;
-  grid-row: 2;
-}
-
-.article img {
-  grid-column: 1;
-  grid-row: 3;
-  width: 80vw;
-  height: auto;
   margin: auto;
 }
 
-.article p {
-  grid-column: 1;
-  grid-row: 4;
+.badge-arleston {
+  position: absolute;
+  top: 120px;
+  left: 0px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  width: 100px;
+  height: 100px;
+  background-image: url("img/portrait-arleston.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
-/*iPads, Tablets*/
-@media only screen and (min-width: 480px) {
-  .sorties-bd,.dossier-special, .rencontres {
-    width: 95vw;
-  }
+/* .img-card-prop {
+  width: 100vw;
+} */
 
+/* .rencontres {
+  width: 100vw;
+}
 
-  .article {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 10px;
-    border: 2px solid orangered;
-    border-radius: 10px;
-    margin-bottom: 1em;
-  }
+.dossier-special {
+  width: 100vw;
+} */
 
-  .article h2 {
-    grid-column: 1 / 3;
-    grid-row: 1;
-  }
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+}
 
-  .article h3 {
-    grid-column: 1 / 3;
-    grid-row: 2;
-  }
-
-  .article img {
-    grid-column: 1;
-    grid-row: 3;
-    width: 250px;
-    height: auto;
-    margin: auto;
-  }
-
-  .article p {
-    grid-column: 2;
-    grid-row: 3;
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .badge-arleston {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    width: 200px;
+    height: 200px;
   }
 }
 
-/*small screen, laptop*/
-@media only screen and (min-width: 768px) {
-  .sorties-bd,.dossier-special, .rencontres {
-    width: 80vw;
-  }
-
-  .article {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-    border: 2px solid orangered;
-    border-radius: 10px;
-    margin-bottom: 1em;
-  }
-
-  .article h2 {
-    grid-column: 1;
-    grid-row: 1;
-  }
-
-  .article h3 {
-    grid-column: 1;
-    grid-row: 2;
-  }
-
-  .article img {
-    grid-column: 1;
-    grid-row: 3;
-    width: 250px;
-    height: auto;
-    margin: auto;
-  }
-
-  .article p {
-    grid-column: 1;
-    grid-row: 4;
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .badge-arleston {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    width: 200px;
+    height: 200px;
   }
 }
 
-/*desktop*/
-@media only screen and (min-width: 1024px) {
-  .sorties-bd,.dossier-special, .rencontres {
-
-    width: 40vw;
-  }
-  .article {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-    border: 2px solid orangered;
-    border-radius: 10px;
-    margin-bottom: 1em;
-  }
-
-  .article h2 {
-    grid-column: 1;
-    grid-row: 1;
-  }
-
-  .article h3 {
-    grid-column: 1;
-    grid-row: 2;
-  }
-
-  .article img {
-    grid-column: 1;
-    grid-row: 3;
-    width: 250px;
-    height: auto;
-    margin: auto;
-  }
-
-  .article p {
-    grid-column: 1;
-    grid-row: 4;
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .badge-arleston {
+    position: absolute;
+    top: 180px;
+    left: 0px;
+    width: 220px;
+    height: 220px;
   }
 }
 
-/*large screen*/
-@media only screen and (min-width: 1200px) {
-  .sorties-bd,.dossier-special, .rencontres {
-
-    margin-top: 10px;
-    width: 45vw;
-    background-color: orangered;
-    border-radius: 20px;
-  }
-
-  .article {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-    border: 2px solid orangered;
-    background-color: #fff;
-    border-radius: 10px;
-    margin-bottom: 1em;
-  }
-
-  .article h2 {
-    grid-column: 1 / 3;
-    grid-row: 1;
-    text-align: center;
-  }
-
-  .article h3 {
-    grid-column: 1 / 3;
-    grid-row: 2;
-  }
-
-  .article img {
-    grid-column: 1;
-    grid-row: 3;
-    width: 250px;
-    height: auto;
-    margin-bottom: 1em;
-  }
-
-  .article p {
-    grid-column: 2;
-    grid-row: 3;
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .badge-arleston {
+    position: absolute;
+    top: 220px;
+    left: 0px;
+    width: 220px;
+    height: 220px;
   }
 }
