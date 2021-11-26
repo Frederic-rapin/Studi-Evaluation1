@@ -1,5 +1,13 @@
+a:hover,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
+
 body {
+  margin-top: 4em;
   background-color: lightgray;
+  background-color: black;
 }
 
 h1 {
@@ -26,80 +34,28 @@ h2 {
   height: 5em;
 }
 
+.jumbotron {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
 .card {
   margin-bottom: 1em;
 }
 
-.badge-arleston {
-  position: absolute;
-  top: 120px;
-  left: 0px;
-  border-radius: 50%;
-  border: 1px solid grey;
-  width: 100px;
-  height: 100px;
-  background-image: url("img/portrait-arleston.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
-
-/* .img-card-prop {
-  width: 100vw;
-} */
-
-/* .rencontres {
-  width: 100vw;
-}
-
-.dossier-special {
-  width: 100vw;
-} */
-
-/* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
-}
-
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .badge-arleston {
-    position: absolute;
-    top: 150px;
-    left: 0px;
-    width: 200px;
-    height: 200px;
+@media (min-width: 576px) {
+  @media (min-width: 768px) and (max-width: 991.98px) {
   }
-}
 
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .badge-arleston {
-    position: absolute;
-    top: 150px;
-    left: 0px;
-    width: 200px;
-    height: 200px;
+  /* Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) {
   }
-}
 
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .badge-arleston {
-    position: absolute;
-    top: 180px;
-    left: 0px;
-    width: 220px;
-    height: 220px;
+  /* Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) {
   }
-}
 
-/* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-  .badge-arleston {
-    position: absolute;
-    top: 220px;
-    left: 0px;
-    width: 220px;
-    height: 220px;
+  /* Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) {
   }
 }
