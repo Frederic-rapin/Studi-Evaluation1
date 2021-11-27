@@ -5,27 +5,21 @@ a:focus {
 }
 
 div:target {
-  padding-top: 80px;
-  margin-top: -80px;
+  padding-top: 90px;
+  margin-top: -90px;
 }
 
 body {
-  background-color: lightgray;
   background-color: black;
   margin-top: 70px;
 }
 
-h1 {
+.title1 {
   font-family: "Carter One", cursive;
   font-size: 2em;
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
-}
-
-h2 {
-  font-family: "Merriweather", serif;
-  text-align: center;
 }
 
 .brand {

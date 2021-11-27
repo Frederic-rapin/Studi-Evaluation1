@@ -48,9 +48,9 @@
       </button>
       <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#"
-            >Accueil <span class="sr-only">(current)</span></a
-          >
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-item nav-link" href="#accueil"  >Accueil</a>
+          </li>
           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
             <a class="nav-item nav-link" href="#rencontres"  >On se déconfine!</a>
           </li>
@@ -60,14 +60,14 @@
           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
             <a class="nav-item nav-link" href="#sorties">Sorties BD</a>
           </li>
-
-
-
         </div>
       </div>
     </nav>
   </header>
+
+
   <main>
+    <div class="title" id="accueil"></div>
     <div class="jumbotron">
       <h4 class="display-5">A-propos</h4>
       <p class="lead">
@@ -88,9 +88,9 @@
     </div>
     <div class="row m-auto">
       <div class="colonne  col-12 col-md-8 ">
-        <div class="title" id="rencontres"></div>
+        <div class="anchor" id="rencontres"></div>
       <div class="rencontres bg-warning order-md-1" >
-        <h1 class="pt-3 pb-2">ON SE DECONFINE!</h1>
+        <h1 class="title1 pt-3 pb-2">ON SE DECONFINE!</h1>
 
         <div class="card">
           <img class="card-img-top" src="img/taduc.png" alt="Card image cap" />
@@ -114,13 +114,10 @@
       </div>
 
       
-      <div class="title" id="dossiers"></div>
+      <div class="anchor" id="dossiers"></div>
       <div class="dossier bg-warning order-md-3">
-
-        <h1 class="pt-3 pb-2">DOSSIER SPECIAL</h1>
-
+        <h1 class="title1 pt-3 pb-2">DOSSIER SPECIAL</h1>
         <div class="card">
-
             <img class="card-img-top" src="img/arleston.jpg" alt="Card image cap" />
             <div class="card-body">
             <h5 class="card-title">Christophe Arleston</h5>
@@ -151,9 +148,9 @@
 
         
 
-      <div class="title" id="sorties"></div>
+      <div class="anchor" id="sorties"></div>
       <div class="sorties-bd col-12 col-md-4 order-md-2 bg-danger">
-        <h1>A NE PAS MANQUER!</h1>
+        <h1 class="title1 pt-3 pb-2">A NE PAS MANQUER!</h1>
 
         <div class="card">
           <img
