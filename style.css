@@ -4,9 +4,15 @@ a:focus {
   text-decoration: none;
 }
 
+div:target {
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
 body {
   background-color: lightgray;
   background-color: black;
+  margin-top: 70px;
 }
 
 h1 {
