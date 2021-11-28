@@ -21,18 +21,21 @@ body {
   margin-top: auto;
   margin-bottom: auto;
 }
-
+/* xs */
 @media (min-width: 576px) {
 }
 
-/* Medium devices (tablets, 768px and up) */
+/* Medium devices (tablets, 768px and up) md*/
 @media (min-width: 768px) {
+
 }
 
-/* Large devices (desktops, 992px and up) */
+/* Large devices (desktops, 992px and up) lg*/
 @media (min-width: 992px) {
+
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
+/* Extra large devices (large desktops, 1200px and up) xl*/
 @media (min-width: 1200px) {
+  
 }

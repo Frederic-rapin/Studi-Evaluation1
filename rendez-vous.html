@@ -36,15 +36,128 @@
     />
   </head>
   <body>
+    <header>
+      <nav class="navbar navbar-expand-md fixed-top navbar-light bg-warning">
+        <img
+          src="img/logo.png"
+          width="60"
+          height="60"
+          class="d-inline-block align-top"
+          alt=""
+        />
+        <a class="navbar-brand" href="#">Les Amis de la BD</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav">
+            <li
+              class="nav-item"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
+              <a class="nav-item nav-link" href="index.html">Accueil</a>
+            </li>
+            <li
+              class="nav-item"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
+              <a class="nav-item nav-link" href="index.html#rdv"
+                >On se déconfine!</a
+              >
+            </li>
+            <li
+              class="nav-item"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
+              <a class="nav-item nav-link" href="index.html#dossiers"
+                >Dossiers</a
+              >
+            </li>
+            <li
+              class="nav-item"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
+              <a class="nav-item nav-link" href="index.html#sorties"
+                >Sorties BD</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <main>
       <section>
-        <article class="taduc"></article>
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="img/cover-chinaman.jpeg"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Séance dédicaces avec Olivier TADUC</h5>
+                <p class="card-text">Le papa de Chinaman est à Nantes</p>
+                <p>
+                  Olivier TADUC sera en dédicace à "La Mystérieuse librairie
+                  nantaise". Vous pourrez donc rencontrer l'auteur pour une
+                  séance de dédicace le Samedi 20 Décembre de 14h30 à 18h00.Nous
+                  vous proposons de nous rejoindre le midi pour échanger autour
+                  d'un bon repas avant de nous rendre à la librairie.
+                </p>
+                <p>
+                  Lieu de rendez-vous:<br />La brasserie des amis <br />
+                  44000 Nantes
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">27/11/2021</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <article class="card">
+          <img class="card-img-top" src="img/taduc.png" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Séance dédicaces avec Olivier TADUC</h5>
+            <h6 class="card-title">Le papa de Chinaman est à Nantes</h6>
+            <p class="card-text">
+              Olivier TADUC sera en dédicace à "La Mystérieuse librairie
+              nantaise". Vous pourrez donc rencontrer l'auteur pour une séance
+              de dédicace le Samedi 20 Mars de 14h30 à 18h00.Nous vous proposons
+              de nous rejoindre le midi pour échanger autour d'un bon repas
+              avant de nous rendre à la librairie.
+              <br />
+              <strong
+                >Bus disponible en partance de Saint Brevin les Pins</strong
+              >
+            </p>
+            <a href="#" class="btn btn-secondary">S'inscrire</a>
+          </div>
+        </article>
+
         <article></article>
       </section>
     </main>
 
     <footer class="h5">
-      <div class="row m-auto bg-dark pt-4 pb-4 fixed-bottom">
+      <div class="row m-auto bg-dark pt-4 pb-4">
         <a
           class="
             col-12 col-md-6
