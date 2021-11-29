@@ -21,6 +21,38 @@ body {
   margin-top: auto;
   margin-bottom: auto;
 }
+
+.btn {
+  background-color: #ffc107;
+  color: black;
+  border: 1px solid black;
+}
+
+.btn:hover {
+  background-color: black;
+  color: #ffc107;
+  border: 1px solid #ffc107;
+}
+
+.btn:active {
+  background-color: black;
+  color: #ffc107;
+  border: 1px solid #ffc107;
+  font-size: larger;
+}
+
+.sorties-bd .btn {
+  background-color: #dc3545;
+  color: black;
+  border: 1px solid black;
+}
+
+.sorties-bd .btn:hover {
+  background-color: black;
+  color: #dc3545;
+  border: 1px solid #dc3545;
+}
+
 /* xs */
 @media (min-width: 576px) {
   .navbar-brand {
