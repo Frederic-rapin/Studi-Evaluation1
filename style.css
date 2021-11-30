@@ -22,6 +22,10 @@ body {
   margin-bottom: auto;
 }
 
+.bannière {
+  display: none;
+}
+
 .btn {
   background-color: #ffc107;
   color: black;
@@ -53,6 +57,12 @@ body {
   border: 1px solid #dc3545;
 }
 
+.reseaux-sociaux {
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+
 /* xs */
 @media (min-width: 576px) {
   .navbar-brand {
@@ -61,10 +71,18 @@ body {
   .nav-item {
     font-size: 1em;
   }
+
+  .reseaux-sociaux {
+    font-size: 2em;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) md*/
 @media (min-width: 768px) {
+  .bannière {
+    display: block;
+    object-fit: scale-down;
+  }
 }
 
 /* Large devices (desktops, 992px and up) lg*/
